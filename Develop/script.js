@@ -78,11 +78,30 @@ $(function () {
   // After clicking the save button, the input will be saved to local storage
   $(".saveBtn").click(function() {
     var id = document.getElementById('hour-9');
-    localStorage.setItem('id', id);
+    localStorage.setItem('id', 'hour-9');
 
-    var description = document.getElementsByClassName('description').value;
+    var description = document.getElementById('textarea').value;
     localStorage.setItem('description', description);
   })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   // $(".saveBtn").click(function() {
   //   var stored = [];

@@ -22,6 +22,9 @@ This code snippet shows the current date when the application is opened.
 ![Class Screenshot](./Assets/classes.PNG)
 This code snippet makes sure that the color styles are applied to the different hours based on certain conditions, making it possible for the past hours to be grey, present hour to be red, and future hours to be green.
 
+![Local Storage Screenshot](./Assets/local_storage.PNG)
+At the moment, I've only managed to get what is inputted into 9am to get stored into the local storage with the id as the hour and description as what is inputted. 
+
 ## Credits
 
 dayjs: https://day.js.org/docs/en/get-set/hour
