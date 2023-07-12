@@ -2,7 +2,7 @@
 
 ## Description
 
-This calendar app lets users know the current hour within a 9-5 work schedule, shown by colors. Users can type in an event or to do that they want to plan by the hour and it will save to the local storage so that it will be there for them to refer to. This program was created using HTML, CSS, and JavaScript. 
+This calendar app lets users know the current hour within a 9-5 work schedule, shown by colors. Users can type in an event or to do that they want to plan by the hour and it will save to the local storage so that it will be there for them to refer to. This program was created using HTML, CSS, and JavaScript. Link: [https://mchung03.github.io/challenge-5-calendar/]
 
 ## Installation
 
@@ -10,20 +10,20 @@ N/A
 
 ## Usage
 
-![Calendar Screenshot](./Assets/example.PNG)
 This screenshot is an example of what the webpage would look like if it was 2pm. The hours before 2pm are greyed out, 2pm is red, and the hours after 2pm are green. 
+![Calendar Screenshot](./Assets/example.PNG)
 
-![HTML Screenshot](./Assets/html.PNG)
 Extra boxes were made with the HTML code, up to hour 17, using the same code as the boxes given.
+![HTML Screenshot](./Assets/html.PNG)
 
-![Day Screenshot](./Assets/current.PNG)
 This code snippet shows the current date when the application is opened.
+![Day Screenshot](./Assets/current.PNG)
 
-![Class Screenshot](./Assets/classes.PNG)
 This code snippet makes sure that the color styles are applied to the different hours based on certain conditions, making it possible for the past hours to be grey, present hour to be red, and future hours to be green.
+![Class Screenshot](./Assets/classes.PNG)
 
-![Local Storage Screenshot](./Assets/local_storage.PNG)
 At the moment, I've only managed to get what is inputted into 9am to get stored into the local storage with the id as the hour and description as what is inputted. 
+![Local Storage Screenshot](./Assets/local_storage.PNG)
 
 ## Credits
 
