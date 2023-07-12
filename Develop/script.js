@@ -18,6 +18,71 @@ $(function () {
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
+  console.log(dayjs().hour());
+
+  if(dayjs().hour() > 9) {
+    $('#hour-9').addClass('past')
+  } else if (dayjs().hour() === 9) {
+    $('#hour-9').addClass('present')
+  } else {
+    $('#hour-9').addClass('future')
+  }
+  if(dayjs().hour() > 10) {
+    $('#hour-10').addClass('past')
+  } else if (dayjs().hour() === 10) {
+    $('#hour-10').addClass('present')
+  } else {
+    $('#hour-10').addClass('future')
+  }
+  if(dayjs().hour() > 11) {
+    $('#hour-11').addClass('past')
+  } else if (dayjs().hour() === 9) {
+    $('#hour-11').addClass('present')
+  } else {
+    $('#hour-11').addClass('future')
+  }
+  if(dayjs().hour() > 12) {
+    $('#hour-12').addClass('past')
+  } else if (dayjs().hour() === 10) {
+    $('#hour-12').addClass('present')
+  } else {
+    $('#hour-12').addClass('future')
+  }
+  if(dayjs().hour() > 13) {
+    $('#hour-13').addClass('past')
+  } else if (dayjs().hour() === 9) {
+    $('#hour-13').addClass('present')
+  } else {
+    $('#hour-13').addClass('future')
+  }
+  if(dayjs().hour() > 14) {
+    $('#hour-14').addClass('past')
+  } else if (dayjs().hour() === 10) {
+    $('#hour-14').addClass('present')
+  } else {
+    $('#hour-14').addClass('future')
+  }
+  if(dayjs().hour() > 15) {
+    $('#hour-15').addClass('past')
+  } else if (dayjs().hour() === 9) {
+    $('#hour-15').addClass('present')
+  } else {
+    $('#hour-15').addClass('future')
+  }
+  if(dayjs().hour() > 16) {
+    $('#hour-16').addClass('past')
+  } else if (dayjs().hour() === 10) {
+    $('#hour-16').addClass('present')
+  } else {
+    $('#hour-16').addClass('future')
+  }
+  if(dayjs().hour() > 17) {
+    $('#hour-17').addClass('past')
+  } else if (dayjs().hour() === 10) {
+    $('#hour-17').addClass('present')
+  } else {
+    $('#hour-17').addClass('future')
+  }
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
